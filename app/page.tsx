@@ -158,7 +158,7 @@ export default function Home() {
       <section className="section section-cream">
         <div className="max-w-6xl mx-auto">
           <h2 className="headline text-center">
-            How does Somatic Breathwork benefit executives, and high performers?
+            What are the benefits of Somatic Breathwork for executives, leaders and high performers?
           </h2>
           <p className="subheadline text-center mx-auto mt-4 mb-16">
             In short, it is a high leverage tool for people whose nervous systems are overworked and whose income is dependent on their quality of thinking.
@@ -245,7 +245,7 @@ export default function Home() {
               I've been where you are.
             </h2>
             <p className="text-lg text-mid leading-relaxed mb-5">
-              I spent 30 years in consumer products — 15 of them as a VP of Sales moving hundreds of millions in revenue through America's largest retailers.
+              I spent over 30 years in consumer products — 15+ of them as a VP of Sales moving billions of dollars in revenue through America's largest retailers.
             </p>
             <p className="text-lg text-mid leading-relaxed mb-5">
               Two years ago, I burned out. Somatic breathwork gave me back my edge.

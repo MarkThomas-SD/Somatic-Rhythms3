@@ -31,11 +31,11 @@ export default function Navigation() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12">
-        <div className="flex justify-between items-center h-28">
+        <div className="flex justify-between items-center py-3">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
             {/* Breath Cycle Icon */}
-            <svg width="98" height="98" viewBox="0 0 400 400" className="flex-shrink-0">
+            <svg width="50" height="50" viewBox="0 0 400 400" className="flex-shrink-0">
               <g transform="translate(200, 200)">
                 <path
                   d="M -100 0 C -100 -70, -40 -70, 0 0 C 40 70, 100 70, 100 0 C 100 -70, 40 -70, 0 0 C -40 70, -100 70, -100 0"
@@ -68,9 +68,17 @@ export default function Navigation() {
               href="https://calendly.com/mark-somaticrhythms/15-min-consult"
               target="_blank"
               rel="noopener noreferrer"
-              className="ml-4 bg-secondary text-primary font-semibold px-6 py-3 text-sm tracking-wide hover:bg-accent hover:text-white transition-all"
+              className="ml-4 bg-secondary text-primary font-semibold px-5 py-2.5 text-sm tracking-wide hover:bg-accent hover:text-white transition-all"
             >
               Book a Consult
+            </a>
+            <a
+              href="https://calendly.com/mark-somaticrhythms/90-min-somatic-journey"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-2 bg-primary text-white font-semibold px-5 py-2.5 text-sm tracking-wide hover:bg-primary/90 transition-all"
+            >
+              Book a Full Session
             </a>
           </div>
 
@@ -106,6 +114,15 @@ export default function Navigation() {
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Book a Consult
+              </a>
+              <a
+                href="https://calendly.com/mark-somaticrhythms/90-min-somatic-journey"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 bg-primary text-white font-semibold px-6 py-3 text-sm tracking-wide text-center hover:bg-primary/90 transition-all"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Book a Full Session
               </a>
             </div>
           </div>

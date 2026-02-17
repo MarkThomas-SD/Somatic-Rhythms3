@@ -125,12 +125,12 @@ export default function HowItWorksPage() {
               {
                 step: "04",
                 title: "Integration",
-                description: "Time to return to a grounded, alert state. We don't leave you floaty or disconnected."
+                description: "A brief conversation about what you experienced and what to expect going forward. Clear, practical, actionable. This is the most important part of the process."
               },
               {
                 step: "05",
-                title: "Debrief",
-                description: "A brief conversation about what you experienced and what to expect going forward. Clear, practical, actionable."
+                title: "Post Session Follow-Up",
+                description: "We will have a call to discuss any emotions or insights that arise in the hours and days afterward. The goal is to translate the experience into practical awareness and sustainable change, not just a powerful moment."
               },
             ].map(({ step, title, description }, i) => (
               <div key={i} className="flex gap-6">
