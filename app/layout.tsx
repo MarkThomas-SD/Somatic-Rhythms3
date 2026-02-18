@@ -5,11 +5,11 @@ import Footer from '@/components/Footer'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
 
 export const metadata: Metadata = {
-  title: 'Somatic Rhythms | Nervous System Performance for Executives',
+  title: 'Somatic Rhythms | Nervous System Regulation for Executives',
   description: 'Somatic breathwork for executives, leaders and high-performers. Reset your stress response so you can perform, recover, and lead without running on empty.',
   keywords: 'somatic breathwork, executive coaching, nervous system regulation, stress management, burnout recovery, San Diego breathwork',
   openGraph: {
-    title: 'Somatic Rhythms | Nervous System Performance for Executives',
+    title: 'Somatic Rhythms | Nervous System Regulation for Executives',
     description: 'Somatic breathwork for executives, leaders and high-performers who don\'t have time for burnout.',
     type: 'website',
     locale: 'en_US',

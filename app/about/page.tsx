@@ -14,7 +14,7 @@ export default function AboutPage() {
       <section className="pt-32 pb-20 px-6 md:px-16 bg-light">
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Photo */}
-          <div className="relative aspect-[4/5] max-w-lg mx-auto lg:mx-0">
+          <div className="relative aspect-[4/5] w-full max-w-lg mx-auto lg:mx-0">
             <Image
               src="/images/mark-headshot.jpg"
               alt="Mark - Founder of Somatic Rhythms"
