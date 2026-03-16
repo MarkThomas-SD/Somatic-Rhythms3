@@ -390,7 +390,7 @@ export default function Home() {
                 Andrew
               </p>
               <p className="text-mid text-sm">
-                Chief Operating Officer, Willow Creek Press
+                Chief Operating Officer, Signal Advisors
               </p>
             </div>
           </div>
